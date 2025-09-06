@@ -4,6 +4,7 @@ kg = float(input("Enter weight in kilograms: "))
 pounds = kg * 2.2
 print("Weight in pounds:", pounds)
 ```
+## Part B: Credit card interest
 ```python
 balance = float(input("Enter balance: "))
 payment = float(input("Enter payment: "))
@@ -16,6 +17,7 @@ interest = avg_daily_balance * interest_rate
 
 print("Interest on unpaid balance:", interest)
 ```
+## Part C: Distance between two cars
 ```python
 from math import sqrt
 
@@ -32,11 +34,11 @@ distance_between = sqrt(distance_a**2 + distance_b**2)
 print("Distance between cars:", distance_between)
 ```
 ## Troubleshooting Variables
-a. hello = "hello" ✅ Valid
-b. _var = 100 ✅ Valid
-c. !var_1 = 200 ❌ Invalid: Variable names cannot start with '!'
-d. print = "print me" ❌ Bad practice: overwrites built-in print()
-e. False = 0 ❌ Invalid: Cannot assign to Python keywords
+- a. hello = "hello" ✅ Valid  
+- b. _var = 100 ✅ Valid  
+- c. !var_1 = 200 ❌ Invalid: Variable names cannot start with '!'  
+- d. print = "print me" ❌ Bad practice: overwrites built-in print()  
+- e. False = 0 ❌ Invalid: Cannot assign to Python keywords
 ## Challenges
 Please describe the challenges you faced during the exercise:
 One challenge that I encountered with this task dealt with learning how to accurately get the user input and also convert that input into the appropriate data type to perform the calculations as well. Another challenge was making sure that I applied the formulas correctly, particularly for calculating the credit card interest and the distance of the car dynamically, with no errors.
